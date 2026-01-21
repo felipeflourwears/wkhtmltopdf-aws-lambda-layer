@@ -114,7 +114,11 @@ cd package
 zip -r ../wkhtmltopdf-lambda.zip .
 ```
 
-
+#### Copy the zip file
+```bash
+flourwears@flourwears:~/Documents/github/wkhtmltopdf-aws-lambda-layer$ docker cp <ID_CONTAINER>:/opt/wkhtmltopdf-lambda.zip /home/flourwears/Documents/github/wkhtmltopdf-aws-lambda-layer
+Successfully copied 21.1MB to /home/flourwears/Documents/github/wkhtmltopdf-aws-lambda-layer
+```
 
 
 ## Documentation Download
